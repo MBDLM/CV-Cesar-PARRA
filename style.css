@@ -1,0 +1,181 @@
+/* Définition d'une nouvelle police*/
+@font-face{ 
+	font-family: 'cmunbmr-webfont';
+	src: url('fonts/cmunbmr-webfont.eot');
+	src: url('fonts/cmunbmr-webfont.eot?iefix') format('eot'),
+	     url('fonts/cmunbmr-webfont.woff') format('woff'),
+	     url('fonts/cmunbmr-webfont.ttf') format('truetype'),
+	     url('fonts/cmunbmr-webfont.svg#webfont') format('svg');
+}
+
+body {
+    font-family: 'cmunbmr-webfont';
+    margin: 0;
+}
+
+main {
+    width: 900px;
+    margin: auto;
+}
+
+header {
+	border: 1px;
+    color: white;
+    background: url('images/746794.jpg');
+    background-size: cover
+}
+
+#tete {
+    display: flex;
+    align-items: baseline;
+}
+
+#logo { 
+    flex: 4;
+    margin: 0px 0px 0px 80px;
+}
+
+#nom {
+   position: relative;
+   bottom: 410px;
+   text-decoration: solid;
+   text-shadow: 0px 0px 5px rgb(8, 8, 8);
+   text-align: center
+}
+
+h1 {
+    font-size: 2.9em;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: #706b64;
+}
+
+.description {
+    font-size: 1.5em;
+    margin-top: 0; 
+}
+
+nav {
+    flex: 3;
+    margin: 0px 80px 560px 0px;
+}
+
+/* Navigation */
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    font-size: 1.0em;
+    color: white;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #828e9e;
+}
+
+section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+article {
+    margin-right: 20px;
+    flex: 3;
+    margin-bottom: 0;
+}
+
+#formation {
+    text-align: justify;
+}
+
+aside {
+    flex: 1.2;
+    position: relative;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+    text-align: center
+}
+
+#photo_cesar
+{
+    text-align: center;
+}
+
+#photo_cesar img
+{
+    border: 1px solid #181818;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 8px; 
+    width: 170px;
+}
+
+.gif {
+    width: 200px;
+    margin-top: 640px;
+}
+
+.photo2 {
+	box-shadow: 5px 5px 5px black;
+    display:block;
+    position: relative;
+    left: 120px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.logo1 {
+    width: 200px;
+    margin-left: 20px;
+}
+
+.logo2 {
+    width: 70px;
+    margin-left: 105px;
+}
+
+#logos
+{
+	display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: 40px;
+}
+
+.button {
+    position: relative;
+    top: 5px;
+    right: 7px;
+}
+
+.sub 
+{
+    text-decoration: underline;
+    color: white;
+}
+
+footer
+{
+	background-color: #8b8d8f;
+	border: 1px;
+    padding: 2px;
+	text-align: center;
+	color: white;
+}
